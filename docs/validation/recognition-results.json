@@ -1,0 +1,852 @@
+{
+  "date" : "2026-11-02T16:43:56Z",
+  "manifestSHA256" : "3b8fdc3cd6961ab3bafd3e39e9ab57eb02a0f533953d9daacd67e6cb0d71d590",
+  "matches" : 10,
+  "operatingSystem" : "Version 26.4 (Build 25E246)",
+  "passed" : false,
+  "requiredMatches" : 24,
+  "results" : [
+    {
+      "acceptedNames" : [
+        "umbrella",
+        "parasol"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.99365234,
+          "englishName" : "umbrella",
+          "id" : "umbrella"
+        },
+        {
+          "confidence" : 0.99365234,
+          "englishName" : "utensil",
+          "id" : "utensil"
+        },
+        {
+          "confidence" : 0.94316447,
+          "englishName" : "outdoor",
+          "id" : "outdoor"
+        }
+      ],
+      "expected" : "umbrella",
+      "id" : "coco-25-000000000036",
+      "matched" : true,
+      "milliseconds" : 95.197208
+    },
+    {
+      "acceptedNames" : [
+        "suitcase",
+        "luggage",
+        "travel bag",
+        "baggage"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.44946626,
+          "englishName" : "structure",
+          "id" : "structure"
+        },
+        {
+          "confidence" : 0.4494629,
+          "englishName" : "wood processed",
+          "id" : "wood_processed"
+        },
+        {
+          "confidence" : 0.096445434,
+          "englishName" : "material",
+          "id" : "material"
+        }
+      ],
+      "expected" : "suitcase",
+      "id" : "coco-28-000000000572",
+      "matched" : false,
+      "milliseconds" : 10.1835
+    },
+    {
+      "acceptedNames" : [
+        "bottle",
+        "water bottle",
+        "wine bottle",
+        "beer bottle"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.616211,
+          "englishName" : "drink",
+          "id" : "drink"
+        },
+        {
+          "confidence" : 0.616211,
+          "englishName" : "liquid",
+          "id" : "liquid"
+        },
+        {
+          "confidence" : 0.616211,
+          "englishName" : "wine",
+          "id" : "wine"
+        }
+      ],
+      "expected" : "bottle",
+      "id" : "coco-39-000000000283",
+      "matched" : false,
+      "milliseconds" : 37.50025
+    },
+    {
+      "acceptedNames" : [
+        "wine glass",
+        "wineglass",
+        "goblet"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.82177734,
+          "englishName" : "adult",
+          "id" : "adult"
+        },
+        {
+          "confidence" : 0.82177734,
+          "englishName" : "people",
+          "id" : "people"
+        },
+        {
+          "confidence" : 0.77929723,
+          "englishName" : "drink",
+          "id" : "drink"
+        }
+      ],
+      "expected" : "wine glass",
+      "id" : "coco-40-000000000326",
+      "matched" : false,
+      "milliseconds" : 10.908625
+    },
+    {
+      "acceptedNames" : [
+        "cup",
+        "mug",
+        "coffee cup",
+        "teacup",
+        "coffee mug"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.17194237,
+          "englishName" : "tableware",
+          "id" : "tableware"
+        },
+        {
+          "confidence" : 0.17194237,
+          "englishName" : "utensil",
+          "id" : "utensil"
+        },
+        {
+          "confidence" : 0.16992188,
+          "englishName" : "cup",
+          "id" : "cup"
+        }
+      ],
+      "expected" : "cup",
+      "id" : "coco-41-000000000562",
+      "matched" : true,
+      "milliseconds" : 12.510458
+    },
+    {
+      "acceptedNames" : [
+        "fork",
+        "table fork"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.8144539,
+          "englishName" : "tableware",
+          "id" : "tableware"
+        },
+        {
+          "confidence" : 0.8144539,
+          "englishName" : "utensil",
+          "id" : "utensil"
+        },
+        {
+          "confidence" : 0.8144531,
+          "englishName" : "fork",
+          "id" : "fork"
+        }
+      ],
+      "expected" : "fork",
+      "id" : "coco-42-000000000092",
+      "matched" : true,
+      "milliseconds" : 11.093959
+    },
+    {
+      "acceptedNames" : [
+        "spoon",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.13403866,
+          "englishName" : "structure",
+          "id" : "structure"
+        },
+        {
+          "confidence" : 0.1340332,
+          "englishName" : "wood processed",
+          "id" : "wood_processed"
+        },
+        {
+          "confidence" : 0.092530414,
+          "englishName" : "conveyance",
+          "id" : "conveyance"
+        }
+      ],
+      "expected" : "spoon",
+      "id" : "coco-44-000000000584",
+      "matched" : false,
+      "milliseconds" : 48.146916
+    },
+    {
+      "acceptedNames" : [
+        "bowl",
+        "soup bowl",
+        "mixing bowl"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.8105495,
+          "englishName" : "structure",
+          "id" : "structure"
+        },
+        {
+          "confidence" : 0.8105469,
+          "englishName" : "wood processed",
+          "id" : "wood_processed"
+        },
+        {
+          "confidence" : 0.7928388,
+          "englishName" : "utensil",
+          "id" : "utensil"
+        }
+      ],
+      "expected" : "bowl",
+      "id" : "coco-45-000000000196",
+      "matched" : false,
+      "milliseconds" : 10.644459
+    },
+    {
+      "acceptedNames" : [
+        "banana",
+        "bananas"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.88134766,
+          "englishName" : "plate",
+          "id" : "plate"
+        },
+        {
+          "confidence" : 0.88134766,
+          "englishName" : "tableware",
+          "id" : "tableware"
+        },
+        {
+          "confidence" : 0.88134766,
+          "englishName" : "utensil",
+          "id" : "utensil"
+        }
+      ],
+      "expected" : "banana",
+      "id" : "coco-46-000000000142",
+      "matched" : false,
+      "milliseconds" : 12.952875
+    },
+    {
+      "acceptedNames" : [
+        "broccoli"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.3951025,
+          "englishName" : "food",
+          "id" : "food"
+        },
+        {
+          "confidence" : 0.39477557,
+          "englishName" : "vegetable",
+          "id" : "vegetable"
+        },
+        {
+          "confidence" : 0.3947754,
+          "englishName" : "broccoli",
+          "id" : "broccoli"
+        }
+      ],
+      "expected" : "broccoli",
+      "id" : "coco-50-000000000009",
+      "matched" : true,
+      "milliseconds" : 13.770666
+    },
+    {
+      "acceptedNames" : [
+        "carrot",
+        "carrots"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.86916125,
+          "englishName" : "food",
+          "id" : "food"
+        },
+        {
+          "confidence" : 0.8691539,
+          "englishName" : "vegetable",
+          "id" : "vegetable"
+        },
+        {
+          "confidence" : 0.8691406,
+          "englishName" : "carrot",
+          "id" : "carrot"
+        }
+      ],
+      "expected" : "carrot",
+      "id" : "coco-51-000000000332",
+      "matched" : true,
+      "milliseconds" : 12.208084
+    },
+    {
+      "acceptedNames" : [
+        "hot dog",
+        "hotdog"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.85026187,
+          "englishName" : "food",
+          "id" : "food"
+        },
+        {
+          "confidence" : 0.8159205,
+          "englishName" : "meat",
+          "id" : "meat"
+        },
+        {
+          "confidence" : 0.81591797,
+          "englishName" : "hotdog",
+          "id" : "hotdog"
+        }
+      ],
+      "expected" : "hot dog",
+      "id" : "coco-52-000000000321",
+      "matched" : true,
+      "milliseconds" : 11.218833
+    },
+    {
+      "acceptedNames" : [
+        "pizza"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.9189453,
+          "englishName" : "plate",
+          "id" : "plate"
+        },
+        {
+          "confidence" : 0.9189453,
+          "englishName" : "tableware",
+          "id" : "tableware"
+        },
+        {
+          "confidence" : 0.9189453,
+          "englishName" : "utensil",
+          "id" : "utensil"
+        }
+      ],
+      "expected" : "pizza",
+      "id" : "coco-53-000000000194",
+      "matched" : false,
+      "milliseconds" : 16.950541
+    },
+    {
+      "acceptedNames" : [
+        "donut",
+        "doughnut",
+        "donuts",
+        "doughnuts"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.13793534,
+          "englishName" : "food",
+          "id" : "food"
+        },
+        {
+          "confidence" : 0.11761779,
+          "englishName" : "baked goods",
+          "id" : "baked_goods"
+        },
+        {
+          "confidence" : 0.11425829,
+          "englishName" : "dessert",
+          "id" : "dessert"
+        }
+      ],
+      "expected" : "donut",
+      "id" : "coco-54-000000000438",
+      "matched" : false,
+      "milliseconds" : 10.736417
+    },
+    {
+      "acceptedNames" : [
+        "cake",
+        "birthday cake",
+        "chocolate cake",
+        "cheesecake"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.63066036,
+          "englishName" : "structure",
+          "id" : "structure"
+        },
+        {
+          "confidence" : 0.6303711,
+          "englishName" : "wood processed",
+          "id" : "wood_processed"
+        },
+        {
+          "confidence" : 0.28545076,
+          "englishName" : "document",
+          "id" : "document"
+        }
+      ],
+      "expected" : "cake",
+      "id" : "coco-55-000000000113",
+      "matched" : false,
+      "milliseconds" : 10.55825
+    },
+    {
+      "acceptedNames" : [
+        "chair",
+        "armchair",
+        "rocking chair",
+        "folding chair"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.841797,
+          "englishName" : "people",
+          "id" : "people"
+        },
+        {
+          "confidence" : 0.8417969,
+          "englishName" : "adult",
+          "id" : "adult"
+        },
+        {
+          "confidence" : 0.4502275,
+          "englishName" : "clothing",
+          "id" : "clothing"
+        }
+      ],
+      "expected" : "chair",
+      "id" : "coco-56-000000000536",
+      "matched" : false,
+      "milliseconds" : 10.822208
+    },
+    {
+      "acceptedNames" : [
+        "couch",
+        "sofa",
+        "loveseat"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.8964846,
+          "englishName" : "people",
+          "id" : "people"
+        },
+        {
+          "confidence" : 0.8964844,
+          "englishName" : "adult",
+          "id" : "adult"
+        },
+        {
+          "confidence" : 0.54736805,
+          "englishName" : "clothing",
+          "id" : "clothing"
+        }
+      ],
+      "expected" : "couch",
+      "id" : "coco-57-000000000241",
+      "matched" : false,
+      "milliseconds" : 12.130583
+    },
+    {
+      "acceptedNames" : [
+        "potted plant",
+        "houseplant",
+        "plant",
+        "flowerpot",
+        "pot plant"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.22698805,
+          "englishName" : "machine",
+          "id" : "machine"
+        },
+        {
+          "confidence" : 0.22120626,
+          "englishName" : "plant",
+          "id" : "plant"
+        },
+        {
+          "confidence" : 0.22094727,
+          "englishName" : "foliage",
+          "id" : "foliage"
+        }
+      ],
+      "expected" : "potted plant",
+      "id" : "coco-58-000000000599",
+      "matched" : true,
+      "milliseconds" : 30.698041
+    },
+    {
+      "acceptedNames" : [
+        "bed",
+        "bunk bed",
+        "four poster bed"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.9257268,
+          "englishName" : "structure",
+          "id" : "structure"
+        },
+        {
+          "confidence" : 0.8857422,
+          "englishName" : "wood processed",
+          "id" : "wood_processed"
+        },
+        {
+          "confidence" : 0.74570435,
+          "englishName" : "furniture",
+          "id" : "furniture"
+        }
+      ],
+      "expected" : "bed",
+      "id" : "coco-59-000000000133",
+      "matched" : false,
+      "milliseconds" : 13.435334
+    },
+    {
+      "acceptedNames" : [
+        "dining table",
+        "dinner table",
+        "table"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.959906,
+          "englishName" : "tableware",
+          "id" : "tableware"
+        },
+        {
+          "confidence" : 0.959906,
+          "englishName" : "utensil",
+          "id" : "utensil"
+        },
+        {
+          "confidence" : 0.9477539,
+          "englishName" : "plate",
+          "id" : "plate"
+        }
+      ],
+      "expected" : "dining table",
+      "id" : "coco-60-000000000450",
+      "matched" : false,
+      "milliseconds" : 14.654083
+    },
+    {
+      "acceptedNames" : [
+        "toilet",
+        "toilet seat",
+        "toilet bowl"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.39672852,
+          "englishName" : "toilet seat",
+          "id" : "toilet_seat"
+        },
+        {
+          "confidence" : 0.39672852,
+          "englishName" : "tool",
+          "id" : "tool"
+        },
+        {
+          "confidence" : 0.34053126,
+          "englishName" : "structure",
+          "id" : "structure"
+        }
+      ],
+      "expected" : "toilet",
+      "id" : "coco-61-000000000636",
+      "matched" : true,
+      "milliseconds" : 15.043333
+    },
+    {
+      "acceptedNames" : [
+        "television",
+        "tv",
+        "television set"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.82129526,
+          "englishName" : "structure",
+          "id" : "structure"
+        },
+        {
+          "confidence" : 0.82128906,
+          "englishName" : "wood processed",
+          "id" : "wood_processed"
+        },
+        {
+          "confidence" : 0.35916215,
+          "englishName" : "machine",
+          "id" : "machine"
+        }
+      ],
+      "expected" : "television",
+      "id" : "coco-62-000000000643",
+      "matched" : false,
+      "milliseconds" : 12.237375
+    },
+    {
+      "acceptedNames" : [
+        "laptop",
+        "laptop computer",
+        "notebook computer"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.7290072,
+          "englishName" : "structure",
+          "id" : "structure"
+        },
+        {
+          "confidence" : 0.7290039,
+          "englishName" : "wood processed",
+          "id" : "wood_processed"
+        },
+        {
+          "confidence" : 0.52246094,
+          "englishName" : "cord",
+          "id" : "cord"
+        }
+      ],
+      "expected" : "laptop",
+      "id" : "coco-63-000000000387",
+      "matched" : false,
+      "milliseconds" : 14.4405
+    },
+    {
+      "acceptedNames" : [
+        "remote",
+        "remote control"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.27595603,
+          "englishName" : "machine",
+          "id" : "machine"
+        },
+        {
+          "confidence" : 0.24316406,
+          "englishName" : "appliance",
+          "id" : "appliance"
+        },
+        {
+          "confidence" : 0.21826172,
+          "englishName" : "keypad",
+          "id" : "keypad"
+        }
+      ],
+      "expected" : "remote control",
+      "id" : "coco-65-000000000443",
+      "matched" : false,
+      "milliseconds" : 10.337292
+    },
+    {
+      "acceptedNames" : [
+        "oven",
+        "stove",
+        "kitchen stove",
+        "range"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.71004546,
+          "englishName" : "appliance",
+          "id" : "appliance"
+        },
+        {
+          "confidence" : 0.71004546,
+          "englishName" : "machine",
+          "id" : "machine"
+        },
+        {
+          "confidence" : 0.6225586,
+          "englishName" : "stove",
+          "id" : "stove"
+        }
+      ],
+      "expected" : "oven",
+      "id" : "coco-69-000000000089",
+      "matched" : true,
+      "milliseconds" : 12.4115
+    },
+    {
+      "acceptedNames" : [
+        "sink",
+        "washbasin",
+        "wash basin"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.8223051,
+          "englishName" : "interior room",
+          "id" : "interior_room"
+        },
+        {
+          "confidence" : 0.822295,
+          "englishName" : "bathroom",
+          "id" : "bathroom"
+        },
+        {
+          "confidence" : 0.80566406,
+          "englishName" : "bathroom faucet",
+          "id" : "bathroom_faucet"
+        }
+      ],
+      "expected" : "sink",
+      "id" : "coco-71-000000000208",
+      "matched" : false,
+      "milliseconds" : 14.386083
+    },
+    {
+      "acceptedNames" : [
+        "refrigerator",
+        "fridge",
+        "icebox"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.7441407,
+          "englishName" : "food",
+          "id" : "food"
+        },
+        {
+          "confidence" : 0.7441406,
+          "englishName" : "pizza",
+          "id" : "pizza"
+        },
+        {
+          "confidence" : 0.25331968,
+          "englishName" : "structure",
+          "id" : "structure"
+        }
+      ],
+      "expected" : "refrigerator",
+      "id" : "coco-72-000000000620",
+      "matched" : false,
+      "milliseconds" : 31.065958
+    },
+    {
+      "acceptedNames" : [
+        "clock",
+        "wall clock",
+        "analog clock",
+        "digital clock"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.33214533,
+          "englishName" : "dial",
+          "id" : "dial"
+        },
+        {
+          "confidence" : 0.33214533,
+          "englishName" : "machine",
+          "id" : "machine"
+        },
+        {
+          "confidence" : 0.3314506,
+          "englishName" : "timepiece",
+          "id" : "timepiece"
+        }
+      ],
+      "expected" : "clock",
+      "id" : "coco-74-000000000078",
+      "matched" : false,
+      "milliseconds" : 10.966417
+    },
+    {
+      "acceptedNames" : [
+        "vase"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.89453125,
+          "englishName" : "container",
+          "id" : "container"
+        },
+        {
+          "confidence" : 0.89453125,
+          "englishName" : "vase",
+          "id" : "vase"
+        },
+        {
+          "confidence" : 0.3098154,
+          "englishName" : "art",
+          "id" : "art"
+        }
+      ],
+      "expected" : "vase",
+      "id" : "coco-75-000000000030",
+      "matched" : true,
+      "milliseconds" : 10.416167
+    },
+    {
+      "acceptedNames" : [
+        "teddy bear",
+        "teddy",
+        "stuffed bear",
+        "stuffed animal"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.8916021,
+          "englishName" : "people",
+          "id" : "people"
+        },
+        {
+          "confidence" : 0.89160156,
+          "englishName" : "adult",
+          "id" : "adult"
+        },
+        {
+          "confidence" : 0.7061758,
+          "englishName" : "structure",
+          "id" : "structure"
+        }
+      ],
+      "expected" : "teddy bear",
+      "id" : "coco-77-000000000623",
+      "matched" : false,
+      "milliseconds" : 12.724583
+    }
+  ],
+  "total" : 30,
+  "visionRevision" : 2
+}

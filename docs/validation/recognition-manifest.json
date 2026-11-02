@@ -1,0 +1,512 @@
+[
+  {
+    "id": "coco-25-000000000036",
+    "image": "images/train2017/000000000036.jpg",
+    "expected": "umbrella",
+    "acceptedNames": [
+      "umbrella",
+      "parasol"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      0.8314246399999999
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000036.jpg"
+  },
+  {
+    "id": "coco-28-000000000572",
+    "image": "images/train2017/000000000572.jpg",
+    "expected": "suitcase",
+    "acceptedNames": [
+      "suitcase",
+      "luggage",
+      "travel bag",
+      "baggage"
+    ],
+    "crop": [
+      0.63876702,
+      0.5504637800000001,
+      0.36123298000000004,
+      0.4296984399999999
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000572.jpg"
+  },
+  {
+    "id": "coco-39-000000000283",
+    "image": "images/train2017/000000000283.jpg",
+    "expected": "bottle",
+    "acceptedNames": [
+      "bottle",
+      "water bottle",
+      "wine bottle",
+      "beer bottle"
+    ],
+    "crop": [
+      0.12451474000000001,
+      0.008078419999999975,
+      0.23872852,
+      0.6040151600000001
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000283.jpg"
+  },
+  {
+    "id": "coco-40-000000000326",
+    "image": "images/train2017/000000000326.jpg",
+    "expected": "wine glass",
+    "acceptedNames": [
+      "wine glass",
+      "wineglass",
+      "goblet"
+    ],
+    "crop": [
+      0.31572178000000006,
+      0.007439500000000043,
+      0.4783684399999999,
+      0.766971
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000326.jpg"
+  },
+  {
+    "id": "coco-41-000000000562",
+    "image": "images/train2017/000000000562.jpg",
+    "expected": "cup",
+    "acceptedNames": [
+      "cup",
+      "mug",
+      "coffee cup",
+      "teacup",
+      "coffee mug"
+    ],
+    "crop": [
+      0.06120317999999997,
+      0.02222307999999995,
+      0.9065776400000001,
+      0.97777692
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000562.jpg"
+  },
+  {
+    "id": "coco-42-000000000092",
+    "image": "images/train2017/000000000092.jpg",
+    "expected": "fork",
+    "acceptedNames": [
+      "fork",
+      "table fork"
+    ],
+    "crop": [
+      0.6232635599999999,
+      0.19108224000000001,
+      0.31906688000000005,
+      0.8089177599999999
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000092.jpg"
+  },
+  {
+    "id": "coco-44-000000000584",
+    "image": "images/train2017/000000000584.jpg",
+    "expected": "spoon",
+    "acceptedNames": [
+      "spoon",
+      "tablespoon",
+      "teaspoon"
+    ],
+    "crop": [
+      0,
+      0,
+      0.60002786,
+      0.18499929999999998
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000584.jpg"
+  },
+  {
+    "id": "coco-45-000000000196",
+    "image": "images/train2017/000000000196.jpg",
+    "expected": "bowl",
+    "acceptedNames": [
+      "bowl",
+      "soup bowl",
+      "mixing bowl"
+    ],
+    "crop": [
+      0.53698544,
+      0.66783306,
+      0.3124031199999999,
+      0.33216694
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000196.jpg"
+  },
+  {
+    "id": "coco-46-000000000142",
+    "image": "images/train2017/000000000142.jpg",
+    "expected": "banana",
+    "acceptedNames": [
+      "banana",
+      "bananas"
+    ],
+    "crop": [
+      0.15306900000000007,
+      0.54914914,
+      0.7043199999999998,
+      0.37256172
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000142.jpg"
+  },
+  {
+    "id": "coco-50-000000000009",
+    "image": "images/train2017/000000000009.jpg",
+    "expected": "broccoli",
+    "acceptedNames": [
+      "broccoli"
+    ],
+    "crop": [
+      0.33070550000000004,
+      0.41637653999999996,
+      0.6127149999999999,
+      0.5836234600000001
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000009.jpg"
+  },
+  {
+    "id": "coco-51-000000000332",
+    "image": "images/train2017/000000000332.jpg",
+    "expected": "carrot",
+    "acceptedNames": [
+      "carrot",
+      "carrots"
+    ],
+    "crop": [
+      0.20470186,
+      0.10438052000000003,
+      0.6017682799999999,
+      0.64771896
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000332.jpg"
+  },
+  {
+    "id": "coco-52-000000000321",
+    "image": "images/train2017/000000000321.jpg",
+    "expected": "hot dog",
+    "acceptedNames": [
+      "hot dog",
+      "hotdog"
+    ],
+    "crop": [
+      0.52164692,
+      0.35594346,
+      0.47835308,
+      0.62144708
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000321.jpg"
+  },
+  {
+    "id": "coco-53-000000000194",
+    "image": "images/train2017/000000000194.jpg",
+    "expected": "pizza",
+    "acceptedNames": [
+      "pizza"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000194.jpg"
+  },
+  {
+    "id": "coco-54-000000000438",
+    "image": "images/train2017/000000000438.jpg",
+    "expected": "donut",
+    "acceptedNames": [
+      "donut",
+      "doughnut",
+      "donuts",
+      "doughnuts"
+    ],
+    "crop": [
+      0.46971978000000003,
+      0.66125496,
+      0.33049843999999995,
+      0.32028208000000014
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000438.jpg"
+  },
+  {
+    "id": "coco-55-000000000113",
+    "image": "images/train2017/000000000113.jpg",
+    "expected": "cake",
+    "acceptedNames": [
+      "cake",
+      "birthday cake",
+      "chocolate cake",
+      "cheesecake"
+    ],
+    "crop": [
+      0.2671672199999999,
+      0.6348771400000001,
+      0.7328327800000001,
+      0.28979172
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000113.jpg"
+  },
+  {
+    "id": "coco-56-000000000536",
+    "image": "images/train2017/000000000536.jpg",
+    "expected": "chair",
+    "acceptedNames": [
+      "chair",
+      "armchair",
+      "rocking chair",
+      "folding chair"
+    ],
+    "crop": [
+      0.60189838,
+      0.34379829999999995,
+      0.39810162000000004,
+      0.6562017
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000536.jpg"
+  },
+  {
+    "id": "coco-57-000000000241",
+    "image": "images/train2017/000000000241.jpg",
+    "expected": "couch",
+    "acceptedNames": [
+      "couch",
+      "sofa",
+      "loveseat"
+    ],
+    "crop": [
+      0.60915854,
+      0.33655878,
+      0.39084146,
+      0.5735384399999999
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000241.jpg"
+  },
+  {
+    "id": "coco-58-000000000599",
+    "image": "images/train2017/000000000599.jpg",
+    "expected": "potted plant",
+    "acceptedNames": [
+      "potted plant",
+      "houseplant",
+      "plant",
+      "flowerpot",
+      "pot plant"
+    ],
+    "crop": [
+      0.80470414,
+      0,
+      0.19529586,
+      0.6663667600000001
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000599.jpg"
+  },
+  {
+    "id": "coco-59-000000000133",
+    "image": "images/train2017/000000000133.jpg",
+    "expected": "bed",
+    "acceptedNames": [
+      "bed",
+      "bunk bed",
+      "four poster bed"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      0.9828295599999999
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000133.jpg"
+  },
+  {
+    "id": "coco-60-000000000450",
+    "image": "images/train2017/000000000450.jpg",
+    "expected": "dining table",
+    "acceptedNames": [
+      "dining table",
+      "dinner table",
+      "table"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000450.jpg"
+  },
+  {
+    "id": "coco-61-000000000636",
+    "image": "images/train2017/000000000636.jpg",
+    "expected": "toilet",
+    "acceptedNames": [
+      "toilet",
+      "toilet seat",
+      "toilet bowl"
+    ],
+    "crop": [
+      0.10185894000000001,
+      0.03909972000000006,
+      0.68517812,
+      0.9609002799999999
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000636.jpg"
+  },
+  {
+    "id": "coco-62-000000000643",
+    "image": "images/train2017/000000000643.jpg",
+    "expected": "television",
+    "acceptedNames": [
+      "television",
+      "tv",
+      "television set"
+    ],
+    "crop": [
+      0.16138560000000002,
+      0.3879593400000001,
+      0.5215687999999999,
+      0.6120406599999999
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000643.jpg"
+  },
+  {
+    "id": "coco-63-000000000387",
+    "image": "images/train2017/000000000387.jpg",
+    "expected": "laptop",
+    "acceptedNames": [
+      "laptop",
+      "laptop computer",
+      "notebook computer"
+    ],
+    "crop": [
+      0.14980721999999996,
+      0.02667596,
+      0.85019278,
+      0.80698208
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000387.jpg"
+  },
+  {
+    "id": "coco-65-000000000443",
+    "image": "images/train2017/000000000443.jpg",
+    "expected": "remote control",
+    "acceptedNames": [
+      "remote",
+      "remote control"
+    ],
+    "crop": [
+      0.75603264,
+      0.36783449999999995,
+      0.24396735999999997,
+      0.3941650000000001
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000443.jpg"
+  },
+  {
+    "id": "coco-69-000000000089",
+    "image": "images/train2017/000000000089.jpg",
+    "expected": "oven",
+    "acceptedNames": [
+      "oven",
+      "stove",
+      "kitchen stove",
+      "range"
+    ],
+    "crop": [
+      0.15317964,
+      0.35472456,
+      0.65140672,
+      0.64527544
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000089.jpg"
+  },
+  {
+    "id": "coco-71-000000000208",
+    "image": "images/train2017/000000000208.jpg",
+    "expected": "sink",
+    "acceptedNames": [
+      "sink",
+      "washbasin",
+      "wash basin"
+    ],
+    "crop": [
+      0,
+      0.13527156,
+      1,
+      0.8647284399999999
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000208.jpg"
+  },
+  {
+    "id": "coco-72-000000000620",
+    "image": "images/train2017/000000000620.jpg",
+    "expected": "refrigerator",
+    "acceptedNames": [
+      "refrigerator",
+      "fridge",
+      "icebox"
+    ],
+    "crop": [
+      0.4471395000000001,
+      0,
+      0.5528605,
+      1
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000620.jpg"
+  },
+  {
+    "id": "coco-74-000000000078",
+    "image": "images/train2017/000000000078.jpg",
+    "expected": "clock",
+    "acceptedNames": [
+      "clock",
+      "wall clock",
+      "analog clock",
+      "digital clock"
+    ],
+    "crop": [
+      0.54592168,
+      0,
+      0.43385863999999996,
+      0.43511288
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000078.jpg"
+  },
+  {
+    "id": "coco-75-000000000030",
+    "image": "images/train2017/000000000030.jpg",
+    "expected": "vase",
+    "acceptedNames": [
+      "vase"
+    ],
+    "crop": [
+      0.33998799999999996,
+      0.30929896000000007,
+      0.3224,
+      0.5656780800000001
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000030.jpg"
+  },
+  {
+    "id": "coco-77-000000000623",
+    "image": "images/train2017/000000000623.jpg",
+    "expected": "teddy bear",
+    "acceptedNames": [
+      "teddy bear",
+      "teddy",
+      "stuffed bear",
+      "stuffed animal"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sourceURL": "https://images.cocodataset.org/train2017/000000000623.jpg"
+  }
+]

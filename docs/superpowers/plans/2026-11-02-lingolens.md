@@ -13,20 +13,21 @@ Swift Testing и XCUITest; iOS 18+.
 
 ## 1. Минимальный проект и контроль распознавания
 
-- [ ] Создать `LingoLens.xcodeproj`, app entry point, тестовый target.
-- [ ] Определить `RecognitionCandidate`, нормализацию и выбор первых трёх
+- [x] Создать `LingoLens.xcodeproj`, app entry point, тестовый target.
+- [x] Определить `RecognitionCandidate`, нормализацию и выбор первых трёх
   уникальных результатов. Проверить сортировку, дубликаты и пустые результаты.
-- [ ] Реализовать один общий сервис Vision для iOS и утилиты оценки на Mac.
-- [ ] До запуска модели зафиксировать 30 изображений, правильные названия
+- [x] Реализовать один общий сервис Vision для iOS и утилиты оценки на Mac.
+- [x] До запуска модели зафиксировать 30 изображений, правильные названия
   и допустимые синонимы в `docs/validation/recognition-manifest.json`.
-- [ ] Собрать утилиту и выполнить оценку; записать все предсказания, версию
+- [x] Собрать утилиту и выполнить оценку; записать все предсказания, версию
   ОС, revision Vision и результат порога 24/30 в `docs/validation/`.
-- [ ] При результате ниже порога остановить следующие этапы и сообщить причину.
+- [x] При результате ниже порога остановить следующие этапы и сообщить причину.
 
-Команды: `swiftc -swift-version 6 LingoLens/Recognition/*.swift
-Tools/VisionBenchmark.swift -o .validation/vision-benchmark`, затем
-`.validation/vision-benchmark docs/validation/recognition-manifest.json
-.validation/coco128 docs/validation/recognition-results.json`.
+Результат: revision 2 — **10/30**, требуется **24/30**. Следующие этапы
+не выполняются до пересмотра распознавания. Отчёт: `../../validation/recognition.md`.
+
+Воспроизведение: `bash Tools/benchmark.sh`. Код возврата 1 означает, что
+порог качества не пройден; подробности сохраняются в JSON.
 
 ## 2. Перевод и речь — после прохождения контрольной точки
 
