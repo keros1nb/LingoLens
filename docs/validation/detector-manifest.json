@@ -1,0 +1,512 @@
+[
+  {
+    "id": "val2017-25-000000009448",
+    "image": "val2017/000000009448.jpg",
+    "expected": "umbrella",
+    "acceptedNames": [
+      "umbrella",
+      "parasol"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      0.68614508
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000009448.jpg"
+  },
+  {
+    "id": "val2017-28-000000011699",
+    "image": "val2017/000000011699.jpg",
+    "expected": "suitcase",
+    "acceptedNames": [
+      "suitcase",
+      "luggage",
+      "travel bag",
+      "baggage"
+    ],
+    "crop": [
+      0,
+      0.58103286,
+      0.65066302,
+      0.41896714
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000011699.jpg"
+  },
+  {
+    "id": "val2017-39-000000102707",
+    "image": "val2017/000000102707.jpg",
+    "expected": "bottle",
+    "acceptedNames": [
+      "bottle",
+      "water bottle",
+      "wine bottle",
+      "beer bottle"
+    ],
+    "crop": [
+      0.49858504000000003,
+      0.22589122,
+      0.31465992,
+      0.7741087799999999
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000102707.jpg"
+  },
+  {
+    "id": "val2017-40-000000085089",
+    "image": "val2017/000000085089.jpg",
+    "expected": "wine glass",
+    "acceptedNames": [
+      "wine glass",
+      "wineglass",
+      "goblet"
+    ],
+    "crop": [
+      0.44767042,
+      0.22034398000000005,
+      0.52620516,
+      0.77965602
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000085089.jpg"
+  },
+  {
+    "id": "val2017-41-000000002592",
+    "image": "val2017/000000002592.jpg",
+    "expected": "cup",
+    "acceptedNames": [
+      "cup",
+      "mug",
+      "coffee cup",
+      "teacup",
+      "coffee mug"
+    ],
+    "crop": [
+      0.30894114000000006,
+      0.024529359999999945,
+      0.40635171999999997,
+      0.7217072800000001
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000002592.jpg"
+  },
+  {
+    "id": "val2017-42-000000008277",
+    "image": "val2017/000000008277.jpg",
+    "expected": "fork",
+    "acceptedNames": [
+      "fork",
+      "table fork"
+    ],
+    "crop": [
+      0.58816256,
+      0.07595716000000002,
+      0.41183744,
+      0.6283476800000001
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000008277.jpg"
+  },
+  {
+    "id": "val2017-44-000000029640",
+    "image": "val2017/000000029640.jpg",
+    "expected": "spoon",
+    "acceptedNames": [
+      "spoon",
+      "tablespoon",
+      "teaspoon"
+    ],
+    "crop": [
+      0.61662786,
+      0.02310488000000005,
+      0.38337214,
+      0.8202922399999999
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000029640.jpg"
+  },
+  {
+    "id": "val2017-45-000000002149",
+    "image": "val2017/000000002149.jpg",
+    "expected": "bowl",
+    "acceptedNames": [
+      "bowl",
+      "soup bowl",
+      "mixing bowl"
+    ],
+    "crop": [
+      0,
+      0.0678741799999999,
+      1,
+      0.9321258200000001
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000002149.jpg"
+  },
+  {
+    "id": "val2017-46-000000003661",
+    "image": "val2017/000000003661.jpg",
+    "expected": "banana",
+    "acceptedNames": [
+      "banana",
+      "bananas"
+    ],
+    "crop": [
+      0.003510779999999991,
+      0,
+      0.9529784399999999,
+      1
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000003661.jpg"
+  },
+  {
+    "id": "val2017-50-000000015278",
+    "image": "val2017/000000015278.jpg",
+    "expected": "broccoli",
+    "acceptedNames": [
+      "broccoli"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000015278.jpg"
+  },
+  {
+    "id": "val2017-51-000000007991",
+    "image": "val2017/000000007991.jpg",
+    "expected": "carrot",
+    "acceptedNames": [
+      "carrot",
+      "carrots"
+    ],
+    "crop": [
+      0.20848257999999992,
+      0.10522230000000005,
+      0.6006448400000002,
+      0.8947776999999999
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000007991.jpg"
+  },
+  {
+    "id": "val2017-52-000000029675",
+    "image": "val2017/000000029675.jpg",
+    "expected": "hot dog",
+    "acceptedNames": [
+      "hot dog",
+      "hotdog"
+    ],
+    "crop": [
+      0,
+      0.20907635999999996,
+      0.78006784,
+      0.37686328
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000029675.jpg"
+  },
+  {
+    "id": "val2017-53-000000008629",
+    "image": "val2017/000000008629.jpg",
+    "expected": "pizza",
+    "acceptedNames": [
+      "pizza"
+    ],
+    "crop": [
+      0,
+      0,
+      0.7207575,
+      0.60094672
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000008629.jpg"
+  },
+  {
+    "id": "val2017-54-000000002587",
+    "image": "val2017/000000002587.jpg",
+    "expected": "donut",
+    "acceptedNames": [
+      "donut",
+      "doughnut",
+      "donuts",
+      "doughnuts"
+    ],
+    "crop": [
+      0.2858168,
+      0,
+      0.6074264,
+      0.7910889400000001
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000002587.jpg"
+  },
+  {
+    "id": "val2017-55-000000002157",
+    "image": "val2017/000000002157.jpg",
+    "expected": "cake",
+    "acceptedNames": [
+      "cake",
+      "birthday cake",
+      "chocolate cake",
+      "cheesecake"
+    ],
+    "crop": [
+      0,
+      0.35216768000000004,
+      0.46879506000000004,
+      0.5600906400000001
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000002157.jpg"
+  },
+  {
+    "id": "val2017-56-000000014226",
+    "image": "val2017/000000014226.jpg",
+    "expected": "chair",
+    "acceptedNames": [
+      "chair",
+      "armchair",
+      "rocking chair",
+      "folding chair"
+    ],
+    "crop": [
+      0.57964642,
+      0,
+      0.38453516,
+      0.62924446
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000014226.jpg"
+  },
+  {
+    "id": "val2017-57-000000003934",
+    "image": "val2017/000000003934.jpg",
+    "expected": "couch",
+    "acceptedNames": [
+      "couch",
+      "sofa",
+      "loveseat"
+    ],
+    "crop": [
+      0.2750166600000001,
+      0.42205519999999996,
+      0.7249833399999999,
+      0.3168696
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000003934.jpg"
+  },
+  {
+    "id": "val2017-58-000000022892",
+    "image": "val2017/000000022892.jpg",
+    "expected": "potted plant",
+    "acceptedNames": [
+      "potted plant",
+      "houseplant",
+      "plant",
+      "flowerpot",
+      "pot plant"
+    ],
+    "crop": [
+      0.3449624,
+      0.6126027199999999,
+      0.6174952,
+      0.38739728000000007
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000022892.jpg"
+  },
+  {
+    "id": "val2017-59-000000000632",
+    "image": "val2017/000000000632.jpg",
+    "expected": "bed",
+    "acceptedNames": [
+      "bed",
+      "bunk bed",
+      "four poster bed"
+    ],
+    "crop": [
+      0,
+      0.5007454199999999,
+      0.70726164,
+      0.4992545800000001
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000000632.jpg"
+  },
+  {
+    "id": "val2017-60-000000002431",
+    "image": "val2017/000000002431.jpg",
+    "expected": "dining table",
+    "acceptedNames": [
+      "dining table",
+      "dinner table",
+      "table"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000002431.jpg"
+  },
+  {
+    "id": "val2017-61-000000003156",
+    "image": "val2017/000000003156.jpg",
+    "expected": "toilet",
+    "acceptedNames": [
+      "toilet",
+      "toilet seat",
+      "toilet bowl"
+    ],
+    "crop": [
+      0.5257824200000001,
+      0.31904341999999997,
+      0.4742175799999999,
+      0.68095658
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000003156.jpg"
+  },
+  {
+    "id": "val2017-62-000000004795",
+    "image": "val2017/000000004795.jpg",
+    "expected": "television",
+    "acceptedNames": [
+      "television",
+      "tv",
+      "television set"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      0.8197310200000001
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000004795.jpg"
+  },
+  {
+    "id": "val2017-63-000000001503",
+    "image": "val2017/000000001503.jpg",
+    "expected": "laptop",
+    "acceptedNames": [
+      "laptop",
+      "laptop computer",
+      "notebook computer"
+    ],
+    "crop": [
+      0,
+      0.34779495999999993,
+      0.44149694,
+      0.6522050400000001
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000001503.jpg"
+  },
+  {
+    "id": "val2017-65-000000037670",
+    "image": "val2017/000000037670.jpg",
+    "expected": "remote control",
+    "acceptedNames": [
+      "remote",
+      "remote control"
+    ],
+    "crop": [
+      0.30354072000000004,
+      0.13280104000000004,
+      0.6523565600000001,
+      0.47889792
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000037670.jpg"
+  },
+  {
+    "id": "val2017-69-000000035326",
+    "image": "val2017/000000035326.jpg",
+    "expected": "oven",
+    "acceptedNames": [
+      "oven",
+      "stove",
+      "kitchen stove",
+      "range"
+    ],
+    "crop": [
+      0.06285222000000001,
+      0.59514302,
+      0.93714778,
+      0.40485698000000003
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000035326.jpg"
+  },
+  {
+    "id": "val2017-71-000000035770",
+    "image": "val2017/000000035770.jpg",
+    "expected": "sink",
+    "acceptedNames": [
+      "sink",
+      "washbasin",
+      "wash basin"
+    ],
+    "crop": [
+      0,
+      0.11099714,
+      1,
+      0.5753017199999999
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000035770.jpg"
+  },
+  {
+    "id": "val2017-72-000000000802",
+    "image": "val2017/000000000802.jpg",
+    "expected": "refrigerator",
+    "acceptedNames": [
+      "refrigerator",
+      "fridge",
+      "icebox"
+    ],
+    "crop": [
+      0.53103534,
+      0.22266586,
+      0.46896466000000003,
+      0.68980828
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000000802.jpg"
+  },
+  {
+    "id": "val2017-74-000000067896",
+    "image": "val2017/000000067896.jpg",
+    "expected": "clock",
+    "acceptedNames": [
+      "clock",
+      "wall clock",
+      "analog clock",
+      "digital clock"
+    ],
+    "crop": [
+      0.22920991999999996,
+      0.05597799999999997,
+      0.57472016,
+      0.74121
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000067896.jpg"
+  },
+  {
+    "id": "val2017-75-000000019742",
+    "image": "val2017/000000019742.jpg",
+    "expected": "vase",
+    "acceptedNames": [
+      "vase"
+    ],
+    "crop": [
+      0.30464160000000007,
+      0.10538135999999998,
+      0.4126968,
+      0.89461864
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000019742.jpg"
+  },
+  {
+    "id": "val2017-77-000000000776",
+    "image": "val2017/000000000776.jpg",
+    "expected": "teddy bear",
+    "acceptedNames": [
+      "teddy bear",
+      "teddy",
+      "stuffed bear",
+      "stuffed animal"
+    ],
+    "crop": [
+      0,
+      0,
+      0.9048856000000001,
+      0.91270608
+    ],
+    "sourceURL": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000000776.jpg"
+  }
+]

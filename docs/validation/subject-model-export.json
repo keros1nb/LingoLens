@@ -1,0 +1,24 @@
+{
+  "model": "OpenAI CLIP ViT-B/16",
+  "objectCount": 1533,
+  "embeddingDimension": 512,
+  "backgroundCount": 6,
+  "conversionCosine": 0.9991723895072937,
+  "checkpointSHA256": "5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f",
+  "namesSHA256": "3ec9e2c3f1a553a7c29cf766b5d809728b5d4becb31b0fab2edd76b66c1f9a54",
+  "embeddingsSHA256": "333081df4855f7f072923d1e314031c84f07b2b8dac9acc5bd49b43fd04c6e78",
+  "templates": [
+    "a photo of {}.",
+    "a close-up photo of {}.",
+    "a photo of a {}.",
+    "a photo of the {}."
+  ],
+  "backgrounds": [
+    "a completely black image",
+    "a completely white image",
+    "a blank image",
+    "a severely blurred photograph",
+    "random visual noise",
+    "a photograph with no visible object"
+  ]
+}

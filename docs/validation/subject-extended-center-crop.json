@@ -1,0 +1,843 @@
+{
+  "date" : "2026-11-02T18:15:44Z",
+  "manifestSHA256" : "df349a9bb1cbbb08a9d78b9aa14c1145ceff98da8fb719f3df0f1fdd265793d5",
+  "matches" : 21,
+  "model" : "SubjectImageEncoder",
+  "modelSHA256" : "e5f8bd6545e3825375e08bedb05f386bc840dc29ee740cefdebb5b2d9b1b472d",
+  "operatingSystem" : "Version 26.4 (Build 25E246)",
+  "passed" : false,
+  "requiredMatches" : 24,
+  "results" : [
+    {
+      "acceptedNames" : [
+        "wrench",
+        "spanner",
+        "adjustable wrench"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.31706786,
+          "englishName" : "ratchet (device)",
+          "id" : "ratchet (device)"
+        },
+        {
+          "confidence" : 0.3044788,
+          "englishName" : "wrench",
+          "id" : "wrench"
+        },
+        {
+          "confidence" : 0.30045715,
+          "englishName" : "pliers",
+          "id" : "pliers"
+        }
+      ],
+      "expected" : "wrench",
+      "id" : "openimages-4130d94d78c2cec7",
+      "matched" : true,
+      "milliseconds" : 5907.573833
+    },
+    {
+      "acceptedNames" : [
+        "hammer",
+        "mallet"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.3152891,
+          "englishName" : "mallet",
+          "id" : "mallet"
+        },
+        {
+          "confidence" : 0.30267963,
+          "englishName" : "hammer",
+          "id" : "hammer"
+        },
+        {
+          "confidence" : 0.29669458,
+          "englishName" : "crowbar",
+          "id" : "crowbar"
+        }
+      ],
+      "expected" : "hammer",
+      "id" : "openimages-f48fed4fa03acbca",
+      "matched" : true,
+      "milliseconds" : 133.917791
+    },
+    {
+      "acceptedNames" : [
+        "screwdriver"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.30971876,
+          "englishName" : "screwdriver",
+          "id" : "screwdriver"
+        },
+        {
+          "confidence" : 0.30843744,
+          "englishName" : "wine bottle",
+          "id" : "wine bottle"
+        },
+        {
+          "confidence" : 0.30814573,
+          "englishName" : "igniter",
+          "id" : "igniter"
+        }
+      ],
+      "expected" : "screwdriver",
+      "id" : "openimages-09df63bd01367ca3",
+      "matched" : true,
+      "milliseconds" : 133.029166
+    },
+    {
+      "acceptedNames" : [
+        "towel",
+        "bath towel",
+        "hand towel"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.287986,
+          "englishName" : "sweatshirt",
+          "id" : "sweatshirt"
+        },
+        {
+          "confidence" : 0.28556588,
+          "englishName" : "breechcloth",
+          "id" : "breechcloth"
+        },
+        {
+          "confidence" : 0.28446373,
+          "englishName" : "pillowcase",
+          "id" : "pillowcase"
+        }
+      ],
+      "expected" : "towel",
+      "id" : "openimages-093cf2c963e1fa76",
+      "matched" : false,
+      "milliseconds" : 144.871958
+    },
+    {
+      "acceptedNames" : [
+        "flashlight",
+        "torch"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.31220797,
+          "englishName" : "flashlight",
+          "id" : "flashlight"
+        },
+        {
+          "confidence" : 0.31164244,
+          "englishName" : "ratchet (device)",
+          "id" : "ratchet (device)"
+        },
+        {
+          "confidence" : 0.3054181,
+          "englishName" : "atomizer",
+          "id" : "atomizer"
+        }
+      ],
+      "expected" : "flashlight",
+      "id" : "openimages-279556606656ca95",
+      "matched" : true,
+      "milliseconds" : 148.223125
+    },
+    {
+      "acceptedNames" : [
+        "pencil case",
+        "pencil box"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.32083383,
+          "englishName" : "pencil box",
+          "id" : "pencil box"
+        },
+        {
+          "confidence" : 0.3158178,
+          "englishName" : "crayon",
+          "id" : "crayon"
+        },
+        {
+          "confidence" : 0.30638742,
+          "englishName" : "coloring material",
+          "id" : "coloring material"
+        }
+      ],
+      "expected" : "pencil case",
+      "id" : "openimages-255a9fbae0f03a86",
+      "matched" : true,
+      "milliseconds" : 148.390333
+    },
+    {
+      "acceptedNames" : [
+        "belt",
+        "leather belt"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.3096496,
+          "englishName" : "strap",
+          "id" : "strap"
+        },
+        {
+          "confidence" : 0.30025032,
+          "englishName" : "saddle",
+          "id" : "saddle"
+        },
+        {
+          "confidence" : 0.29972357,
+          "englishName" : "leather",
+          "id" : "leather"
+        }
+      ],
+      "expected" : "belt",
+      "id" : "openimages-6de429f2a9f0b32b",
+      "matched" : false,
+      "milliseconds" : 155.177958
+    },
+    {
+      "acceptedNames" : [
+        "light switch",
+        "switch"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.33444372,
+          "englishName" : "light switch",
+          "id" : "light switch"
+        },
+        {
+          "confidence" : 0.33021247,
+          "englishName" : "fire alarm",
+          "id" : "fire alarm"
+        },
+        {
+          "confidence" : 0.32062092,
+          "englishName" : "wall socket",
+          "id" : "wall socket"
+        }
+      ],
+      "expected" : "light switch",
+      "id" : "openimages-0d015e83e8534047",
+      "matched" : true,
+      "milliseconds" : 144.015833
+    },
+    {
+      "acceptedNames" : [
+        "telephone",
+        "phone",
+        "landline phone"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.32638234,
+          "englishName" : "corded phone",
+          "id" : "corded phone"
+        },
+        {
+          "confidence" : 0.3227579,
+          "englishName" : "cellular telephone",
+          "id" : "cellular telephone"
+        },
+        {
+          "confidence" : 0.32069415,
+          "englishName" : "remote control",
+          "id" : "remote control"
+        }
+      ],
+      "expected" : "telephone",
+      "id" : "openimages-38820ed3df145161",
+      "matched" : false,
+      "milliseconds" : 142.038583
+    },
+    {
+      "acceptedNames" : [
+        "calculator"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.30784693,
+          "englishName" : "calculator",
+          "id" : "calculator"
+        },
+        {
+          "confidence" : 0.2863954,
+          "englishName" : "remote control",
+          "id" : "remote control"
+        },
+        {
+          "confidence" : 0.27214518,
+          "englishName" : "cellular telephone",
+          "id" : "cellular telephone"
+        }
+      ],
+      "expected" : "calculator",
+      "id" : "openimages-13fc51f84ffc7bcf",
+      "matched" : true,
+      "milliseconds" : 138.363875
+    },
+    {
+      "acceptedNames" : [
+        "sock",
+        "socks"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.2987239,
+          "englishName" : "sock",
+          "id" : "sock"
+        },
+        {
+          "confidence" : 0.29816896,
+          "englishName" : "legging",
+          "id" : "legging"
+        },
+        {
+          "confidence" : 0.29036605,
+          "englishName" : "slippers",
+          "id" : "slippers"
+        }
+      ],
+      "expected" : "sock",
+      "id" : "openimages-01515554f0b1dd46",
+      "matched" : true,
+      "milliseconds" : 133.786041
+    },
+    {
+      "acceptedNames" : [
+        "power socket",
+        "wall socket",
+        "power plug",
+        "plug",
+        "power adapter"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.32595515,
+          "englishName" : "power socket",
+          "id" : "power socket"
+        },
+        {
+          "confidence" : 0.32370532,
+          "englishName" : "wall socket",
+          "id" : "wall socket"
+        },
+        {
+          "confidence" : 0.30740783,
+          "englishName" : "power adapter",
+          "id" : "power adapter"
+        }
+      ],
+      "expected" : "power socket",
+      "id" : "openimages-048682317245c4ea",
+      "matched" : true,
+      "milliseconds" : 136.377
+    },
+    {
+      "acceptedNames" : [
+        "door handle",
+        "doorknob"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.36169574,
+          "englishName" : "door knocker",
+          "id" : "door knocker"
+        },
+        {
+          "confidence" : 0.34447667,
+          "englishName" : "door lock",
+          "id" : "door lock"
+        },
+        {
+          "confidence" : 0.33708933,
+          "englishName" : "door handle",
+          "id" : "door handle"
+        }
+      ],
+      "expected" : "door handle",
+      "id" : "openimages-0b024751069e970c",
+      "matched" : true,
+      "milliseconds" : 136.625417
+    },
+    {
+      "acceptedNames" : [
+        "scarf",
+        "shawl"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.34068602,
+          "englishName" : "headscarf",
+          "id" : "headscarf"
+        },
+        {
+          "confidence" : 0.3234017,
+          "englishName" : "bandanna",
+          "id" : "bandanna"
+        },
+        {
+          "confidence" : 0.31533167,
+          "englishName" : "turban",
+          "id" : "turban"
+        }
+      ],
+      "expected" : "scarf",
+      "id" : "openimages-2d7aeb9c4b50704f",
+      "matched" : false,
+      "milliseconds" : 127.376416
+    },
+    {
+      "acceptedNames" : [
+        "watch",
+        "wristwatch",
+        "smartwatch"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.3334292,
+          "englishName" : "wall clock",
+          "id" : "wall clock"
+        },
+        {
+          "confidence" : 0.3252326,
+          "englishName" : "clock",
+          "id" : "clock"
+        },
+        {
+          "confidence" : 0.32309565,
+          "englishName" : "compass",
+          "id" : "compass"
+        }
+      ],
+      "expected" : "watch",
+      "id" : "openimages-0447d80c8ce6fa36",
+      "matched" : false,
+      "milliseconds" : 135.271625
+    },
+    {
+      "acceptedNames" : [
+        "pillow",
+        "cushion"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.32833153,
+          "englishName" : "pillowcase",
+          "id" : "pillowcase"
+        },
+        {
+          "confidence" : 0.31351814,
+          "englishName" : "cushion",
+          "id" : "cushion"
+        },
+        {
+          "confidence" : 0.30582622,
+          "englishName" : "pillow",
+          "id" : "pillow"
+        }
+      ],
+      "expected" : "pillow",
+      "id" : "openimages-0f8c04a91af8c42a",
+      "matched" : true,
+      "milliseconds" : 153.352584
+    },
+    {
+      "acceptedNames" : [
+        "microphone"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.340168,
+          "englishName" : "boom microphone",
+          "id" : "boom microphone"
+        },
+        {
+          "confidence" : 0.33359772,
+          "englishName" : "microphone",
+          "id" : "microphone"
+        },
+        {
+          "confidence" : 0.28896832,
+          "englishName" : "bullhorn",
+          "id" : "bullhorn"
+        }
+      ],
+      "expected" : "microphone",
+      "id" : "openimages-04d357176397fb31",
+      "matched" : true,
+      "milliseconds" : 137.050666
+    },
+    {
+      "acceptedNames" : [
+        "headphones",
+        "headset",
+        "earphones",
+        "earbuds"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.3364159,
+          "englishName" : "earbuds",
+          "id" : "earbuds"
+        },
+        {
+          "confidence" : 0.32278138,
+          "englishName" : "earphone",
+          "id" : "earphone"
+        },
+        {
+          "confidence" : 0.32254654,
+          "englishName" : "earbud case",
+          "id" : "earbud case"
+        }
+      ],
+      "expected" : "headphones",
+      "id" : "openimages-1eeda2f2e8f31933",
+      "matched" : true,
+      "milliseconds" : 171.108208
+    },
+    {
+      "acceptedNames" : [
+        "pen",
+        "ballpoint pen",
+        "fountain pen"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.33184662,
+          "englishName" : "pencil",
+          "id" : "pencil"
+        },
+        {
+          "confidence" : 0.33021936,
+          "englishName" : "mechanical pencil",
+          "id" : "mechanical pencil"
+        },
+        {
+          "confidence" : 0.32459903,
+          "englishName" : "pen",
+          "id" : "pen"
+        }
+      ],
+      "expected" : "pen",
+      "id" : "openimages-07caab7b663b7e86",
+      "matched" : true,
+      "milliseconds" : 144.3025
+    },
+    {
+      "acceptedNames" : [
+        "lamp",
+        "desk lamp",
+        "table lamp",
+        "floor lamp"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.29919392,
+          "englishName" : "wood-burning stove",
+          "id" : "wood-burning stove"
+        },
+        {
+          "confidence" : 0.29740968,
+          "englishName" : "wok",
+          "id" : "wok"
+        },
+        {
+          "confidence" : 0.2959772,
+          "englishName" : "grill",
+          "id" : "grill"
+        }
+      ],
+      "expected" : "lamp",
+      "id" : "openimages-19c9b309c8709868",
+      "matched" : false,
+      "milliseconds" : 131.935166
+    },
+    {
+      "acceptedNames" : [
+        "hat",
+        "sun hat",
+        "cowboy hat",
+        "cap"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.2967544,
+          "englishName" : "hat",
+          "id" : "hat"
+        },
+        {
+          "confidence" : 0.29079562,
+          "englishName" : "beanie",
+          "id" : "beanie"
+        },
+        {
+          "confidence" : 0.28392163,
+          "englishName" : "swim cap",
+          "id" : "swim cap"
+        }
+      ],
+      "expected" : "hat",
+      "id" : "openimages-00fd93edd4717826",
+      "matched" : true,
+      "milliseconds" : 143.9705
+    },
+    {
+      "acceptedNames" : [
+        "monitor",
+        "computer monitor",
+        "computer screen"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.2719389,
+          "englishName" : "monitor",
+          "id" : "monitor"
+        },
+        {
+          "confidence" : 0.26251775,
+          "englishName" : "desk",
+          "id" : "desk"
+        },
+        {
+          "confidence" : 0.25643608,
+          "englishName" : "newsstand",
+          "id" : "newsstand"
+        }
+      ],
+      "expected" : "monitor",
+      "id" : "openimages-00a36f96e31731c4",
+      "matched" : true,
+      "milliseconds" : 129.698875
+    },
+    {
+      "acceptedNames" : [
+        "helmet",
+        "bicycle helmet",
+        "football helmet",
+        "motorcycle helmet"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.28207928,
+          "englishName" : "football helmet",
+          "id" : "football helmet"
+        },
+        {
+          "confidence" : 0.27921736,
+          "englishName" : "american football",
+          "id" : "american football"
+        },
+        {
+          "confidence" : 0.27242798,
+          "englishName" : "boy",
+          "id" : "boy"
+        }
+      ],
+      "expected" : "helmet",
+      "id" : "openimages-020c7b8e6d605069",
+      "matched" : true,
+      "milliseconds" : 132.233875
+    },
+    {
+      "acceptedNames" : [
+        "door",
+        "sliding door",
+        "wooden door"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.29368126,
+          "englishName" : "door",
+          "id" : "door"
+        },
+        {
+          "confidence" : 0.26532146,
+          "englishName" : "kennel",
+          "id" : "kennel"
+        },
+        {
+          "confidence" : 0.26459694,
+          "englishName" : "door lock",
+          "id" : "door lock"
+        }
+      ],
+      "expected" : "door",
+      "id" : "openimages-00794645d77184eb",
+      "matched" : true,
+      "milliseconds" : 131.502417
+    },
+    {
+      "acceptedNames" : [
+        "trousers",
+        "pants",
+        "jeans"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.28413203,
+          "englishName" : "legging",
+          "id" : "legging"
+        },
+        {
+          "confidence" : 0.277558,
+          "englishName" : "sportswear",
+          "id" : "sportswear"
+        },
+        {
+          "confidence" : 0.2742079,
+          "englishName" : "girl",
+          "id" : "girl"
+        }
+      ],
+      "expected" : "trousers",
+      "id" : "openimages-0007cebe1b2ba653",
+      "matched" : false,
+      "milliseconds" : 132.294125
+    },
+    {
+      "acceptedNames" : [
+        "jeans",
+        "blue jeans",
+        "denim trousers"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.2981087,
+          "englishName" : "unicycle",
+          "id" : "unicycle"
+        },
+        {
+          "confidence" : 0.29485133,
+          "englishName" : "stationary bicycle",
+          "id" : "stationary bicycle"
+        },
+        {
+          "confidence" : 0.2888761,
+          "englishName" : "bicycle",
+          "id" : "bicycle"
+        }
+      ],
+      "expected" : "jeans",
+      "id" : "openimages-00e9084d1bc8e0ea",
+      "matched" : false,
+      "milliseconds" : 126.705959
+    },
+    {
+      "acceptedNames" : [
+        "jacket",
+        "coat",
+        "blazer"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.2708325,
+          "englishName" : "cloak",
+          "id" : "cloak"
+        },
+        {
+          "confidence" : 0.26451853,
+          "englishName" : "trench coat",
+          "id" : "trench coat"
+        },
+        {
+          "confidence" : 0.25670177,
+          "englishName" : "robe",
+          "id" : "robe"
+        }
+      ],
+      "expected" : "jacket",
+      "id" : "openimages-01b4f093f795747b",
+      "matched" : false,
+      "milliseconds" : 131.735584
+    },
+    {
+      "acceptedNames" : [
+        "window",
+        "window frame"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.28207934,
+          "englishName" : "window",
+          "id" : "window"
+        },
+        {
+          "confidence" : 0.2786232,
+          "englishName" : "dollhouse",
+          "id" : "dollhouse"
+        },
+        {
+          "confidence" : 0.2711574,
+          "englishName" : "thermostat",
+          "id" : "thermostat"
+        }
+      ],
+      "expected" : "window",
+      "id" : "openimages-0433fe487a1775f1",
+      "matched" : true,
+      "milliseconds" : 136.226209
+    },
+    {
+      "acceptedNames" : [
+        "dress",
+        "gown"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.26949307,
+          "englishName" : "dress",
+          "id" : "dress"
+        },
+        {
+          "confidence" : 0.2589766,
+          "englishName" : "dress suit",
+          "id" : "dress suit"
+        },
+        {
+          "confidence" : 0.25595707,
+          "englishName" : "woman",
+          "id" : "woman"
+        }
+      ],
+      "expected" : "dress",
+      "id" : "openimages-0064b73c505e39e3",
+      "matched" : true,
+      "milliseconds" : 135.989125
+    },
+    {
+      "acceptedNames" : [
+        "rug",
+        "carpet",
+        "runner rug",
+        "persian rug"
+      ],
+      "candidates" : [
+        {
+          "confidence" : 0.30692357,
+          "englishName" : "runner rug",
+          "id" : "runner rug"
+        },
+        {
+          "confidence" : 0.30653736,
+          "englishName" : "rug",
+          "id" : "rug"
+        },
+        {
+          "confidence" : 0.28702646,
+          "englishName" : "tapestry",
+          "id" : "tapestry"
+        }
+      ],
+      "expected" : "rug",
+      "id" : "rug-gohar",
+      "matched" : true,
+      "milliseconds" : 133.452416
+    }
+  ],
+  "total" : 30
+}

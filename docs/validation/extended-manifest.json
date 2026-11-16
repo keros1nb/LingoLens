@@ -1,0 +1,503 @@
+[
+  {
+    "id": "openimages-4130d94d78c2cec7",
+    "image": "openimages/4130d94d78c2cec7.jpg",
+    "expected": "wrench",
+    "acceptedNames": [
+      "wrench",
+      "spanner",
+      "adjustable wrench"
+    ],
+    "crop": [
+      0.15554687760000002,
+      0.472854748,
+      0.7943750247999999,
+      0.527145252
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/4130d94d78c2cec7.jpg"
+  },
+  {
+    "id": "openimages-f48fed4fa03acbca",
+    "image": "openimages/f48fed4fa03acbca.jpg",
+    "expected": "hammer",
+    "acceptedNames": [
+      "hammer",
+      "mallet"
+    ],
+    "crop": [
+      0,
+      0.6387628944000001,
+      0.46292034992,
+      0.3612371055999999
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/f48fed4fa03acbca.jpg"
+  },
+  {
+    "id": "openimages-09df63bd01367ca3",
+    "image": "openimages/09df63bd01367ca3.jpg",
+    "expected": "screwdriver",
+    "acceptedNames": [
+      "screwdriver"
+    ],
+    "crop": [
+      0.0956630184,
+      0.42755739519999997,
+      0.4623401132,
+      0.22004176960000005
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/09df63bd01367ca3.jpg"
+  },
+  {
+    "id": "openimages-093cf2c963e1fa76",
+    "image": "openimages/093cf2c963e1fa76.jpg",
+    "expected": "towel",
+    "acceptedNames": [
+      "towel",
+      "bath towel",
+      "hand towel"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/093cf2c963e1fa76.jpg"
+  },
+  {
+    "id": "openimages-279556606656ca95",
+    "image": "openimages/279556606656ca95.jpg",
+    "expected": "flashlight",
+    "acceptedNames": [
+      "flashlight",
+      "torch"
+    ],
+    "crop": [
+      0.32781249999999995,
+      0.7068333,
+      0.5521875,
+      0.20925000000000005
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/279556606656ca95.jpg"
+  },
+  {
+    "id": "openimages-255a9fbae0f03a86",
+    "image": "openimages/255a9fbae0f03a86.jpg",
+    "expected": "pencil case",
+    "acceptedNames": [
+      "pencil case",
+      "pencil box"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/255a9fbae0f03a86.jpg"
+  },
+  {
+    "id": "openimages-6de429f2a9f0b32b",
+    "image": "openimages/6de429f2a9f0b32b.jpg",
+    "expected": "belt",
+    "acceptedNames": [
+      "belt",
+      "leather belt"
+    ],
+    "crop": [
+      0.013509931520000004,
+      0,
+      0.98649006848,
+      1
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/6de429f2a9f0b32b.jpg"
+  },
+  {
+    "id": "openimages-0d015e83e8534047",
+    "image": "openimages/0d015e83e8534047.jpg",
+    "expected": "light switch",
+    "acceptedNames": [
+      "light switch",
+      "switch"
+    ],
+    "crop": [
+      0.3480625,
+      0.16441665519999998,
+      0.48825,
+      0.6045000495999999
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/0d015e83e8534047.jpg"
+  },
+  {
+    "id": "openimages-38820ed3df145161",
+    "image": "openimages/38820ed3df145161.jpg",
+    "expected": "telephone",
+    "acceptedNames": [
+      "telephone",
+      "phone",
+      "landline phone"
+    ],
+    "crop": [
+      0.021253406400000008,
+      0,
+      0.9629428071999999,
+      1
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/38820ed3df145161.jpg"
+  },
+  {
+    "id": "openimages-13fc51f84ffc7bcf",
+    "image": "openimages/13fc51f84ffc7bcf.jpg",
+    "expected": "calculator",
+    "acceptedNames": [
+      "calculator"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/13fc51f84ffc7bcf.jpg"
+  },
+  {
+    "id": "openimages-01515554f0b1dd46",
+    "image": "openimages/01515554f0b1dd46.jpg",
+    "expected": "sock",
+    "acceptedNames": [
+      "sock",
+      "socks"
+    ],
+    "crop": [
+      0,
+      0.17169674080000003,
+      0.625415177,
+      0.8283032591999999
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/01515554f0b1dd46.jpg"
+  },
+  {
+    "id": "openimages-048682317245c4ea",
+    "image": "openimages/048682317245c4ea.jpg",
+    "expected": "power socket",
+    "acceptedNames": [
+      "power socket",
+      "wall socket",
+      "power plug",
+      "plug",
+      "power adapter"
+    ],
+    "crop": [
+      0.059271523199999995,
+      0.0466272192,
+      0.8930463136000001,
+      0.6799210966
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/048682317245c4ea.jpg"
+  },
+  {
+    "id": "openimages-0b024751069e970c",
+    "image": "openimages/0b024751069e970c.jpg",
+    "expected": "door handle",
+    "acceptedNames": [
+      "door handle",
+      "doorknob"
+    ],
+    "crop": [
+      0,
+      0,
+      0.772062086,
+      1
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/0b024751069e970c.jpg"
+  },
+  {
+    "id": "openimages-2d7aeb9c4b50704f",
+    "image": "openimages/2d7aeb9c4b50704f.jpg",
+    "expected": "scarf",
+    "acceptedNames": [
+      "scarf",
+      "shawl"
+    ],
+    "crop": [
+      0,
+      0.10318749999999999,
+      0.833,
+      0.49987500000000007
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/2d7aeb9c4b50704f.jpg"
+  },
+  {
+    "id": "openimages-0447d80c8ce6fa36",
+    "image": "openimages/0447d80c8ce6fa36.jpg",
+    "expected": "watch",
+    "acceptedNames": [
+      "watch",
+      "wristwatch",
+      "smartwatch"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/0447d80c8ce6fa36.jpg"
+  },
+  {
+    "id": "openimages-0f8c04a91af8c42a",
+    "image": "openimages/0f8c04a91af8c42a.jpg",
+    "expected": "pillow",
+    "acceptedNames": [
+      "pillow",
+      "cushion"
+    ],
+    "crop": [
+      0.030325902800000012,
+      0,
+      0.9696740972,
+      1
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/0f8c04a91af8c42a.jpg"
+  },
+  {
+    "id": "openimages-04d357176397fb31",
+    "image": "openimages/04d357176397fb31.jpg",
+    "expected": "microphone",
+    "acceptedNames": [
+      "microphone"
+    ],
+    "crop": [
+      0.19410013040000001,
+      0.0035662672000000006,
+      0.2735047292,
+      0.9964337328
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/04d357176397fb31.jpg"
+  },
+  {
+    "id": "openimages-1eeda2f2e8f31933",
+    "image": "openimages/1eeda2f2e8f31933.jpg",
+    "expected": "headphones",
+    "acceptedNames": [
+      "headphones",
+      "headset",
+      "earphones",
+      "earbuds"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/1eeda2f2e8f31933.jpg"
+  },
+  {
+    "id": "openimages-07caab7b663b7e86",
+    "image": "openimages/07caab7b663b7e86.jpg",
+    "expected": "pen",
+    "acceptedNames": [
+      "pen",
+      "ballpoint pen",
+      "fountain pen"
+    ],
+    "crop": [
+      0.34272300479999995,
+      0.367750004,
+      0.6572769952,
+      0.20408329200000008
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/07caab7b663b7e86.jpg"
+  },
+  {
+    "id": "openimages-19c9b309c8709868",
+    "image": "openimages/19c9b309c8709868.jpg",
+    "expected": "lamp",
+    "acceptedNames": [
+      "lamp",
+      "desk lamp",
+      "table lamp",
+      "floor lamp"
+    ],
+    "crop": [
+      0,
+      0.05169675039999999,
+      1,
+      0.9020216692
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/19c9b309c8709868.jpg"
+  },
+  {
+    "id": "openimages-00fd93edd4717826",
+    "image": "openimages/00fd93edd4717826.jpg",
+    "expected": "hat",
+    "acceptedNames": [
+      "hat",
+      "sun hat",
+      "cowboy hat",
+      "cap"
+    ],
+    "crop": [
+      0,
+      0.056200292,
+      1,
+      0.743269516
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/00fd93edd4717826.jpg"
+  },
+  {
+    "id": "openimages-00a36f96e31731c4",
+    "image": "openimages/00a36f96e31731c4.jpg",
+    "expected": "monitor",
+    "acceptedNames": [
+      "monitor",
+      "computer monitor",
+      "computer screen"
+    ],
+    "crop": [
+      0.287625,
+      0.1679166736,
+      0.4669375,
+      0.5037499628
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/00a36f96e31731c4.jpg"
+  },
+  {
+    "id": "openimages-020c7b8e6d605069",
+    "image": "openimages/020c7b8e6d605069.jpg",
+    "expected": "helmet",
+    "acceptedNames": [
+      "helmet",
+      "bicycle helmet",
+      "football helmet",
+      "motorcycle helmet"
+    ],
+    "crop": [
+      0.1608259616,
+      0,
+      0.7919174067999999,
+      0.8771681408
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/020c7b8e6d605069.jpg"
+  },
+  {
+    "id": "openimages-00794645d77184eb",
+    "image": "openimages/00794645d77184eb.jpg",
+    "expected": "door",
+    "acceptedNames": [
+      "door",
+      "sliding door",
+      "wooden door"
+    ],
+    "crop": [
+      0.5788200568,
+      0.2691150376,
+      0.25238942639999995,
+      0.6940708048
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/00794645d77184eb.jpg"
+  },
+  {
+    "id": "openimages-0007cebe1b2ba653",
+    "image": "openimages/0007cebe1b2ba653.jpg",
+    "expected": "trousers",
+    "acceptedNames": [
+      "trousers",
+      "pants",
+      "jeans"
+    ],
+    "crop": [
+      0.7131563399999999,
+      0,
+      0.23592922000000005,
+      0.44831857592
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/0007cebe1b2ba653.jpg"
+  },
+  {
+    "id": "openimages-00e9084d1bc8e0ea",
+    "image": "openimages/00e9084d1bc8e0ea.jpg",
+    "expected": "jeans",
+    "acceptedNames": [
+      "jeans",
+      "blue jeans",
+      "denim trousers"
+    ],
+    "crop": [
+      0.07610619872,
+      0.1370796464,
+      0.21946901855999995,
+      0.4581415971999999
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/00e9084d1bc8e0ea.jpg"
+  },
+  {
+    "id": "openimages-01b4f093f795747b",
+    "image": "openimages/01b4f093f795747b.jpg",
+    "expected": "jacket",
+    "acceptedNames": [
+      "jacket",
+      "coat",
+      "blazer"
+    ],
+    "crop": [
+      0.09430464319999998,
+      0.22377580719999998,
+      0.9056953568,
+      0.7762241928
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/01b4f093f795747b.jpg"
+  },
+  {
+    "id": "openimages-0433fe487a1775f1",
+    "image": "openimages/0433fe487a1775f1.jpg",
+    "expected": "window",
+    "acceptedNames": [
+      "window",
+      "window frame"
+    ],
+    "crop": [
+      0,
+      0.0016249999999999876,
+      1,
+      0.998375
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/0433fe487a1775f1.jpg"
+  },
+  {
+    "id": "openimages-0064b73c505e39e3",
+    "image": "openimages/0064b73c505e39e3.jpg",
+    "expected": "dress",
+    "acceptedNames": [
+      "dress",
+      "gown"
+    ],
+    "crop": [
+      0.1442424304,
+      0.2535353608,
+      0.7014141591999998,
+      0.7464646392000001
+    ],
+    "sourceURL": "https://s3.amazonaws.com/open-images-dataset/validation/0064b73c505e39e3.jpg"
+  },
+  {
+    "id": "rug-gohar",
+    "image": "rug-gohar.jpg",
+    "expected": "rug",
+    "acceptedNames": [
+      "rug",
+      "carpet",
+      "runner rug",
+      "persian rug"
+    ],
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "sourceURL": "https://upload.wikimedia.org/wikipedia/commons/9/97/Armenian_rug_Gohar-2.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Armenian_rug_Gohar-2.jpg"
+  }
+]

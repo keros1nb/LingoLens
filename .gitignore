@@ -7,3 +7,10 @@ DerivedData/
 *.xcuserstate
 xcuserdata/
 .validation/
+.releases/
+*.ipa
+*.xcarchive/
+*.xcresult/
+/docs/diagrams/
+/docs/application-diagrams.md
+/docs/presentation/

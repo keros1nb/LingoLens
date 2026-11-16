@@ -1,0 +1,53 @@
+LingoLens on-device recognition resources
+
+Broad image encoder: OpenAI CLIP ViT-B/16, converted to Core ML MLProgram,
+FP16 activations with per-channel int8 weight quantization.
+Source: https://github.com/openai/CLIP
+Source revision: d05afc436d78f1c48dc0dbf8e5980a9d471f35f6
+Copyright (c) 2021 OpenAI. MIT License: CLIP-LICENSE.txt.
+Official checkpoint SHA-256:
+5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f
+The image encoder and precomputed text embeddings execute locally.
+No OpenAI API, cloud service or runtime Python dependency is used.
+
+SubjectNames.json is a modified vocabulary: normalized English names from
+LVIS/Detectron2 and Open Images, with additional everyday household names.
+Parenthetical dataset identifiers and underscores were removed, some synonyms
+were normalized, and broad ancestor categories were excluded.
+
+LVIS category names source:
+https://github.com/facebookresearch/detectron2/blob/main/detectron2/data/datasets/lvis_v1_categories.py
+Copyright (c) Facebook, Inc. and its affiliates.
+Apache License 2.0: Detectron2-LICENSE.txt.
+Source file SHA-256: 2fd8d25a76e465710bb87af0f9d7591ff3292e2eeb14bf921a6277c4fe67fc6a
+
+Open Images class descriptions:
+https://storage.googleapis.com/openimages/v5/class-descriptions-boxable.csv
+Open Images Dataset, Google. Annotations: Creative Commons Attribution 4.0.
+License text: CC-BY-4.0.txt.
+https://storage.googleapis.com/openimages/web/index.html
+Source file SHA-256: 2fa47fb1b87e71c90b9fbee2dc1184eb8c59601bb811ea4424b200653cedff8e
+Reference: Kuznetsova et al., The Open Images Dataset V4: Unified image
+classification, object detection, and visual relationship detection at scale,
+International Journal of Computer Vision, 2020.
+
+The 1533 names are possible choices, not a guarantee that every photographed
+object will be recognized. The models have not been trained on user photos.
+Benchmark images are development data only and are not bundled with the app.
+
+Localized object detector:
+
+Model: Apple YOLOv3Int8LUT, model metadata version 2.0
+Authors recorded in the model: Joseph Redmon, Ali Farhadi
+Repository: https://huggingface.co/apple/coreml-YOLOv3
+Repository revision: d9f596181a1eb1de924d07e1b47429391f30d80d
+File: YOLOv3Int8LUT.mlmodel
+SHA-256: 0e32f297ad9cfc0ea8e67276867956488c7ee10dc87c057da4debc939e20b76d
+
+The official Apple model card declares the model license as MIT.
+The model's embedded license field refers to https://github.com/pjreddie/darknet.
+That original project's LICENSE declares Darknet to be public domain.
+The original license text is included in Darknet-LICENSE.txt.
+
+No Ultralytics YOLOv8 code or weights are included in LingoLens.
+The detector runs locally with Apple's Core ML and Vision frameworks.

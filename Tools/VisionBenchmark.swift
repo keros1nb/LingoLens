@@ -29,7 +29,12 @@ struct VisionBenchmark {
     struct Report: Codable {
         let date: Date
         let operatingSystem: String
-        let visionRevision: Int
+        let model: String
+        let modelSHA256: String
+        let detectorSHA256: String
+        let namesSHA256: String
+        let embeddingsSHA256: String
+        let preprocessing: String
         let manifestSHA256: String
         let requiredMatches: Int
         let matches: Int
@@ -44,8 +49,8 @@ struct VisionBenchmark {
 
     static func main() async throws {
         let args = CommandLine.arguments
-        guard args.count == 4 else {
-            print("Usage: vision-benchmark manifest.json image-root results.json")
+        guard args.count == 5 else {
+            print("Usage: vision-benchmark manifest.json image-root results.json encoder.mlpackage")
             throw BenchmarkError.invalidArguments
         }
         let manifestData = try Data(contentsOf: URL(fileURLWithPath: args[1]))
@@ -53,7 +58,8 @@ struct VisionBenchmark {
         guard samples.count == 30, Set(samples.map(\.image)).count == 30 else {
             throw BenchmarkError.invalidSampleCount
         }
-        let service = RecognitionService()
+        let modelURL = URL(fileURLWithPath: args[4])
+        let service = RecognitionService(modelURL: modelURL)
         var results: [Result] = []
         for sample in samples {
             let start = ContinuousClock.now
@@ -78,8 +84,14 @@ struct VisionBenchmark {
             }
         }
         let matches = results.filter(\.matched).count
+        let directory = modelURL.deletingLastPathComponent()
         let report = Report(date: Date(), operatingSystem: ProcessInfo.processInfo.operatingSystemVersionString,
-                            visionRevision: RecognitionService.revision,
+                            model: RecognitionService.modelName,
+                            modelSHA256: SHA256.hash(data: try Data(contentsOf: modelURL.appendingPathComponent("Data/com.apple.CoreML/weights/weight.bin"))).map { String(format: "%02x", $0) }.joined(),
+                            detectorSHA256: hash(directory.appendingPathComponent(RecognitionService.detectorName + ".mlmodel")),
+                            namesSHA256: hash(directory.appendingPathComponent("SubjectNames.json")),
+                            embeddingsSHA256: hash(directory.appendingPathComponent("SubjectEmbeddings.bin")),
+                            preprocessing: "CLIP centerCrop + YOLO scaleFit; two broad choices and one localized choice",
                             manifestSHA256: SHA256.hash(data: manifestData).map { String(format: "%02x", $0) }.joined(),
                             requiredMatches: 24, matches: matches, total: samples.count,
                             passed: matches >= 24, results: results)
@@ -89,6 +101,11 @@ struct VisionBenchmark {
         try encoder.encode(report).write(to: URL(fileURLWithPath: args[3]), options: .atomic)
         print("Gate: \(matches)/\(samples.count), required 24/30 — \(report.passed ? "PASS" : "FAIL")")
         if !report.passed { exit(1) }
+    }
+
+    static func hash(_ url: URL) -> String {
+        guard let data = try? Data(contentsOf: url) else { return "unavailable" }
+        return SHA256.hash(data: data).map { String(format: "%02x", $0) }.joined()
     }
 
     static func croppedImage(at url: URL, crop: [Double]) throws -> Data {
